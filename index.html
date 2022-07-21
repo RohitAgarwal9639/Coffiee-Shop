@@ -92,9 +92,9 @@
 
             <div class="form">
                 <h2>Login Here</h2>
-                <input type="email" name="email" placeholder="Enter Email Here" >
-                <input type="password" name="password" placeholder="Enter Password Here" >
-                <button class="button"><a href="#">Login</a></button>
+                <input type="email" name="email" placeholder="Enter Email Here" id="emailbox" >
+                <input type="password" name="password" placeholder="Enter Password Here" id="passbox" >
+                <button class="button">Login</button>
 
                 <p class="link">Don't have an account ?<br>
                 <a href="#">Sign up </a> here</a></p>
@@ -107,6 +107,9 @@
                     <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
                     <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
                 </div>
+                <script type="module" src="./js/firebaseconfig.js">
+                </script>
+                <script type="module" src="./js/login.js"></script>
             </div>
         </div>
 
@@ -280,17 +283,21 @@
                 <h3>get in touch</h3>
                 <div class="inputBox">
                     <span class="fas fa-user"></span>
-                    <input type="text" placeholder="name">
+                    <input type="text" placeholder="name" id="namebox">
                 </div>
                 <div class="inputBox">
                     <span class="fas fa-envelope"></span>
-                    <input type="email" placeholder="email">
+                    <input type="email" placeholder="email" id="emaillbox">
                 </div>
                 <div class="inputBox">
                     <span class="fas fa-phone"></span>
-                    <input type="number" placeholder="number">
+                    <input type="number" placeholder="number" id="numbox">
                 </div>
-                <input type="submit" value="contact now" class="btn">
+                <!-- <input type="submit" value="contact now" class="btn"> -->
+                <button class="btnn">Contact now</button>
+                <script type="module" src="./js/firebaseconfig.js">
+                </script>
+                <script type="module" src="./js/contact.js"></script>
             </form>
 
         </div>
